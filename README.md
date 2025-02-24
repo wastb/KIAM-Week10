@@ -48,14 +48,3 @@ This project covers:
   ```bash
   pip install -r requirements.txt
   ```
-### Visualization
-
-The interactive dashboard provides the following visualization features:
-
-- **Historical Trends**: Line charts displaying historical Brent oil price trends with highlighted events.
-
-![Price Trend](figures/price_trend.png) 
-
-- **Forecasting and Predictions**: Displayed through charts (e.g., Recharts, Chart.js) for understanding future price movements based on selected models.
-
-![Dashboard](figures/dashboard-price.png)
