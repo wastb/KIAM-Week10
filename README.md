@@ -35,40 +35,6 @@ This project covers:
   - Develop a Flask-based backend and a React frontend for a seamless experience.
   - Present historical trends, forecasts, and correlations with events through interactive visualizations.
 
-## File Structure
-
-The project uses a modular structure to maintain clean, organized code.
-
-```bash
-
-    ├── .github/
-    ├── dashboard/
-    ├── notebooks/
-    │   ├── changePointAnalysis.ipynb
-    │   ├── oilprice_forcast_ARIMA.ipynb
-    │   ├── Oilprice_forcast_LTSM.ipynb
-    │   ├── Oilprice_forcast_ML_model.ipynb
-    ├── scripts/
-    │   ├── __init__.py
-    │   ├── app.py
-    │   ├── main.py
-    ├── src/
-    │     └── __init__.py       
-    │     ├── load_data.py
-    │     ├── oilprice_eda.py  
-    │     └── preprocessing.py  
-    │     ├── model_trainig.py      
-    │     └── README.md                           
-    ├── tests/
-    │   ├── __init__.py                  
-    │   ├── test_oilprice_eda.py 
-    │   ├── test_preprocessing.py               
-    ├── requirements.txt                     
-    ├── README.md    
-    └── Dockerfile                        
-
-```
-
 ## Installation
 1. Clone the repository:
    ```bash
@@ -82,20 +48,6 @@ The project uses a modular structure to maintain clean, organized code.
   ```bash
   pip install -r requirements.txt
   ```
-4. **Set Up Dashboard (Flask + React)**:
-   - Navigate to the `scripts` directory and start the Flask server:
-     ```bash
-     python app.py
-     ```
-   - Navigate to the `frontend` directory and start the React app:
-     ```bash
-     npm install
-     npm start
-     ```
-
-5. **Access the Dashboard**:
-   Open your browser and go to `http://localhost:3000` to interact with the dashboard.
-
 ### Visualization
 
 The interactive dashboard provides the following visualization features:
